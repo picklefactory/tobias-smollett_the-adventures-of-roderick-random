@@ -60,3 +60,9 @@ footer{
 	padding-left: 1em;
 	text-indent: -1em;
 }
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
