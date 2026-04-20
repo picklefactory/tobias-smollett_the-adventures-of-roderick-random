@@ -23,7 +23,6 @@ footer{
 	margin-bottom: 1em;
 }
 
-[epub|type~="z3998:salutation"] + p,
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
 }
