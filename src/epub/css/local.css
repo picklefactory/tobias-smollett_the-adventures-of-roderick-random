@@ -72,3 +72,22 @@ p span.i1{
 	text-align: initial;
 	text-indent: 0;
 }
+
+table{
+	margin: 1em auto;
+	font-variant-numeric: tabular-nums;
+	border-collapse: collapse;
+}
+
+thead{
+	text-align: right;
+}
+
+tfoot{
+	border-top: solid;
+}
+
+td + td{
+	text-align: right;
+	padding-left: 1em;
+}
