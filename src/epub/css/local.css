@@ -82,8 +82,12 @@ thead{
 	text-align: right;
 }
 
-tfoot{
-	border-top: solid;
+tbody > tr:last-child > td + td{
+	border-bottom: 1px solid;
+}
+
+tfoot td + td{
+	border-bottom: 3px double;
 }
 
 td + td{
